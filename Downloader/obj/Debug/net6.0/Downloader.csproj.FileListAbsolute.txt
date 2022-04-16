@@ -1,0 +1,15 @@
+C:\Users\Samsli\source\repos\Downloader\Downloader\bin\Debug\net6.0\Downloader.exe
+C:\Users\Samsli\source\repos\Downloader\Downloader\bin\Debug\net6.0\Downloader.deps.json
+C:\Users\Samsli\source\repos\Downloader\Downloader\bin\Debug\net6.0\Downloader.runtimeconfig.json
+C:\Users\Samsli\source\repos\Downloader\Downloader\bin\Debug\net6.0\Downloader.dll
+C:\Users\Samsli\source\repos\Downloader\Downloader\bin\Debug\net6.0\Downloader.pdb
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.csproj.AssemblyReference.cache
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.AssemblyInfoInputs.cache
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.AssemblyInfo.cs
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.csproj.CoreCompileInputs.cache
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.dll
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\refint\Downloader.dll
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.pdb
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\Downloader.genruntimeconfig.cache
+C:\Users\Samsli\source\repos\Downloader\Downloader\obj\Debug\net6.0\ref\Downloader.dll
