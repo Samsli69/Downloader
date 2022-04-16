@@ -22,7 +22,7 @@ namespace Projets
             try
             {
                 var stream = await HttpClient.GetStreamAsync(url);
-                using (var fileStream = File.Create(Path.Combine(path, "")))
+                using (var fileStream = File.Create(Path.Combine(path, "test")))
                 {
                     await stream.CopyToAsync(fileStream);
                 }
@@ -32,6 +32,10 @@ namespace Projets
                 throw new Exception(e.Message);
             }
 
+        }
+        public string GetFileNameFromUrl(Uri url)
+        {
+            return Path.GetFileName(url.LocalPath);
         }
     }
 }

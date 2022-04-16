@@ -2,7 +2,7 @@
 using System.Net;
 
 //Affichage ASCII
-Console.ForegroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.DarkRed;
 var ascii = new ASCII(@"
 ____   ____.__    .___                 .___                  .__                    .___
 \   \ /   /|__| __| _/____  ____     __| _/______  _  ______ |  |   _________     __| _/
@@ -18,7 +18,10 @@ try
 {
     Uri lien = new Uri(url);
     Download download = new Download();
-    await download.downloadFile(lien);
+    Console.WriteLine(download.GetFileNameFromUrl(lien));
+    /*while (!download.downloadFile(lien).IsCompleted)
+    {
+    }*/
 }
 catch(Exception e)
 {
