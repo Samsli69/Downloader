@@ -18,7 +18,7 @@ try
 {
     Uri lien = new Uri(url);
     Download download = new Download();
-    Console.WriteLine(download.GetFileNameFromUrl(lien));
+    Console.WriteLine(download.GetFileSize(lien));
     /*while (!download.downloadFile(lien).IsCompleted)
     {
     }*/

@@ -22,7 +22,7 @@ namespace Projets
             try
             {
                 var stream = await HttpClient.GetStreamAsync(url);
-                using (var fileStream = File.Create(Path.Combine(path, "test")))
+                using (var fileStream = File.Create(Path.Combine(path, GetFileNameFromUrl(url))))
                 {
                     await stream.CopyToAsync(fileStream);
                 }
@@ -33,9 +33,25 @@ namespace Projets
             }
 
         }
-        public string GetFileNameFromUrl(Uri url)
+        private string GetFileNameFromUrl(Uri url)
         {
             return Path.GetFileName(url.LocalPath);
         }
+
+        public long GetFileSize(Uri url)
+        {
+
+            var result = HttpClient.GetAsync(url.AbsoluteUri, HttpCompletionOption.ResponseHeadersRead).Result;
+
+            if (result.IsSuccessStatusCode)
+            {
+                return result.Content.Headers.ContentLength.Value;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
     }
 }
